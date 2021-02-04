@@ -133,7 +133,7 @@ class NaiveCrawler:
             if self.init:
                 threads = 1
             else:
-                threads = min(32, len(self.links_to_visit))
+                threads = min(32, len(self.links_to_visit)+1)
 
             for i in range(self.depth):
                 # print(f'\n\U0001F577\U0001F578\tCrawler_{i}')
