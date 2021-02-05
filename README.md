@@ -58,7 +58,7 @@ $ python main.py -i https://strise.ai -ad strise.ai -d 2
 
 ## State
 The state of the crawler can be saved using `pickle` or `JSON`. 
-```JSON
+```YAML
 {
   "current_url": "http://strise.ai/about-us/team",
   "visited_links": [
