@@ -1,6 +1,6 @@
 # 🕷️ CLI-based Web Crawler
 
-<a href="url"><img src="crawler.gif" height="auto" width="640" style="border-radius:5%"></a>
+<a href="url"><img src="crawler.gif" height="auto" width="auto" style="border-radius:5%"></a>
 
 ## This miniscule project attempts to satisfy the following requirements:
 1. The start URL should be configurable
@@ -24,6 +24,11 @@ cd naive-crawler
 python -m venv venv
 ```
 > Setup a virtual environment
+
+```zsh
+source venv/bin/activate
+```
+> Activate the virtual environment
 
 ```zsh
 pip install -r requirements.txt
