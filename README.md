@@ -59,7 +59,7 @@ $ python main.py
 ```zsh
 $ python main.py -i https://strise.ai -ad strise.ai -d 2
 ```
-> Start crawling from `https://strise.ai`, restrict the traversal of domains to `strise.ai` a `depth=2` 
+> Start crawling from `https://strise.ai`, restrict the traversal of domains to `strise.ai` at `depth=2` 
 
 ## State
 The state of the crawler can be saved using `pickle` or `JSON`. 
